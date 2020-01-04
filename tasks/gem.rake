@@ -2,7 +2,6 @@ require 'rubygems/package_task'
 require 'hoe'
 
 HOE = Hoe.spec 'mysql' do
-  self.rubyforge_name = 'mysql-win'
   self.author         = ['TOMITA Masahiro']
   self.email          = %w[tommy@tmtm.org]
   self.need_tar       = false
